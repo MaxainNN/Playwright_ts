@@ -2,13 +2,19 @@
   "name": "playwright_ts",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "allure generate ./allure-results --clean",
+    "allure:open": "allure open"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.45.1",
-    "@types/node": "^20.14.9"
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^20.14.9",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.8"
   }
 }
