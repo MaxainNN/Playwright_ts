@@ -1,30 +1,58 @@
 # **Playwright Basics in TypeScript**
 
-## **Tech Stack**
+## **Stack**
 - **Node.js**: `20.14.0`
 - **npm**: `10.9.0`
 
 ---
 
-## **Setup the Project**
+## **Comments**
+Project under construction. It has been rewritten.
+
+## Project structure
+TODO
+
+## **How use project**
 
 1. **Clone the Repository**  
-   Run the following command in your terminal:
-   ```bash
+
+```bash
    git clone https://github.com/MaxainNN/Playwright_ts
+```
 
-2. **Into the terminal type:**
-    ```bash
+2. **Install dependencies:**
+```bash
     npm i
-    npx playwright test
+```    
 
-3. **To show playwright report:**
-    ```bash
+3. **Start tests**
+```bash
+    npx playwright test
+```     
+
+4. **Test in UI mode**
+```bash
+    npx playwright test --ui
+```   
+
+5. **To show playwright report:**
+```bash
     npx playwright show-report
+```     
    
-4. **Addpitional commands:**
+6. **Additional commands:**
 Test and generate allure report
 ```bash
    npm run test
    npm run allure:generate
    npm run allure:open
+```
+
+7. **Clean test results** (Don't work)
+```bash
+    npx playwright test --clear
+```  
+
+## **Useful links**
+- https://playwright.dev/docs/writing-tests - official docs
+- https://habr.com/ru/articles/712084/ - article about UI tests
