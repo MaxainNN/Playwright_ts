@@ -27,7 +27,7 @@ TODO
 
 3. **Start tests**
 ```bash
-    npx playwright test
+    npm run test
 ```     
 
 4. **Test in UI mode**
@@ -41,18 +41,24 @@ TODO
 ```     
    
 6. **Additional commands:**
-Test and generate allure report
+Generate allure report
 ```bash
-   npm run test
    npm run allure:generate
    npm run allure:open
 ```
 
-7. **Clean test results** (Don't work)
+7. **Clean test results** 
 ```bash
-    npx playwright test --clear
+    npm run clean
 ```  
 
 ## **Useful links**
 - https://playwright.dev/docs/writing-tests - official docs
 - https://habr.com/ru/articles/712084/ - article about UI tests
+
+## TODO
+- Add more tests
+- Add description
+- Add API tests (?)
+
+## Author - Maxim Kalugin

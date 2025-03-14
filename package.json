@@ -5,7 +5,8 @@
   "scripts": {
     "test": "npx playwright test",
     "allure:generate": "allure generate ./allure-results --clean",
-    "allure:open": "allure open"
+    "allure:open": "allure open",
+    "clean": "rmdir /s /q test-results playwright-report playwright\\.cache"
   },
   "keywords": [],
   "author": "",
