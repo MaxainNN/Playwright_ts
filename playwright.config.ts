@@ -30,6 +30,8 @@ export default defineConfig({
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    /* BASE URL , COULD BE DELETED CAUSE CAN ADD MORE TESTS*/
+    baseURL: 'https://playwright.dev',
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
     // headless: false,

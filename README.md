@@ -55,10 +55,10 @@ Generate allure report
 ## **Useful links**
 - https://playwright.dev/docs/writing-tests - official docs
 - https://habr.com/ru/articles/712084/ - article about UI tests
+- https://habr.com/ru/articles/718814/ - article about API tests
 
 ## TODO
-- Add more tests
-- Add description
-- Add API tests (?)
+- Add more tests (API) + from project in JS
+- Refactor description
 
 ## Author - Maxim Kalugin
